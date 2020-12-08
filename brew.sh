@@ -12,15 +12,16 @@ brew upgrade
 BREW_PREFIX=$(brew --prefix)
 
 # Install more recent versions of some macOS tools.
-brew install vim --with-override-system-vi
+brew install vim
+brew install git
+brew install tree 
 
 # Install other useful binaries.
-
-#brew install docker-edge
-#brew install google-chrome
-#brew install tunnelblick
-brew install v2rayx
-brew install visual-studio-code
-#brew install wpsoffice
+#brew install cask docker-edge
+#brew install cask google-chrome
+#brew install cask tunnelblick
+brew install cask v2rayx
+brew install cask visual-studio-code
+#brew install cask wpsoffice
 # Remove outdated versions from the cellar.
 #brew cleanup
